@@ -3,33 +3,35 @@
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
 body{
     background: lightsalmon url(../images/fundo-madeira.jpg) center no-repeat fixed;
     background-size: cover;
     position: relative;
-    padding-top: 4vw;
-    
-    
 }
-div#phone{
-    margin: auto;
+section#phone{
+    position: absolute;
     color: white;
-    width: 315px;
+    width: 311px;
     background: url(../images/frame-iphone.png) no-repeat;
-    height: 620px;
-    position: relative;
-    
+    height: 627px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-div iframe{
+section iframe{
     position: absolute;
-    height: 76%;
-    width: 85.5%;
+    height: 470px;
+    width: 270px;
     top: 80px;
-    left: 21px;
+    left: 20px;
 }
-div#links{
+section#links{
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 20px;
 }
 a{
