@@ -68,4 +68,10 @@ li.link {
 #link6 {
     background: url(../images/logo-facebook.jpg) no-repeat ;
     background-size: cover;
-}   
+}  
+li.link:hover{
+    transition-duration: 0.4s;
+    box-shadow: 1px 1px 3px black;
+    width: 60px;
+    height: 60px;
+} 
