@@ -46,6 +46,8 @@ li.link {
     height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px black;
 }
 #link1 {
     background: url(../images/logo-home.jpg) no-repeat ;
@@ -72,8 +74,10 @@ li.link {
     background-size: cover;
 }  
 li.link:hover{
-    transition-duration: 0.4s;
-    box-shadow: 1px 1px 3px black;
+    transition-duration: .4s;
+    box-shadow: 5px 5px 5px black;
     width: 60px;
     height: 60px;
+    border: 1px solid lightgray;
+    
 } 
